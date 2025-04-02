@@ -1,0 +1,283 @@
+2025-04-01 15:31:51.054 | INFO     | __main__:main:12 - Starting Best Buy review scraping and analysis
+2025-04-01 15:33:37.958 | INFO     | __main__:main:47 - Initializing scraper
+2025-04-01 15:33:38.090 | INFO     | bestbuy_review_scraper:__init__:29 - Initializing BestBuy Review Scraper
+2025-04-01 15:35:24.230 | INFO     | __main__:main:12 - Starting Best Buy review scraping and analysis
+2025-04-01 15:35:44.589 | INFO     | __main__:main:47 - Initializing scraper
+2025-04-01 15:35:44.589 | INFO     | bestbuy_review_scraper:__init__:30 - Initializing BestBuy Review Scraper
+2025-04-01 15:35:44.597 | INFO     | bestbuy_review_scraper:__init__:57 - Detected system: Darwin on x86_64 architecture
+2025-04-01 15:35:45.324 | ERROR    | bestbuy_review_scraper:__init__:76 - Failed to initialize Chrome driver: [Errno 8] Exec format error: '/Users/manasprusti/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-x64/THIRD_PARTY_NOTICES.chromedriver'
+2025-04-01 15:35:50.352 | INFO     | __main__:main:51 - Scraping reviews for product: https://www.bestbuy.ca/en-ca/product/lenovo-tab-m9-9-32gb-android-12-tablet-w-mediatek-helio-g80-8-core-processor-arctic-grey-only-at-best-buy/16945648?source=category&adSlot=1&slotPos=1
+2025-04-01 15:35:50.361 | INFO     | bestbuy_review_scraper:navigate_to_product:96 - Navigating to product: https://www.bestbuy.ca/en-ca/product/lenovo-tab-m9-9-32gb-android-12-tablet-w-mediatek-helio-g80-8-core-processor-arctic-grey-only-at-best-buy/16945648?source=category&adSlot=1&slotPos=1
+2025-04-01 15:36:12.833 | ERROR    | bestbuy_review_scraper:navigate_to_product:110 - Failed to navigate to reviews section: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000108f99568 chromedriver + 6088040
+1   chromedriver                        0x0000000108f9117a chromedriver + 6054266
+2   chromedriver                        0x0000000108a30540 chromedriver + 415040
+3   chromedriver                        0x0000000108a820a0 chromedriver + 749728
+4   chromedriver                        0x0000000108a822f1 chromedriver + 750321
+5   chromedriver                        0x0000000108ad2764 chromedriver + 1079140
+6   chromedriver                        0x0000000108aa841d chromedriver + 906269
+7   chromedriver                        0x0000000108acfa19 chromedriver + 1067545
+8   chromedriver                        0x0000000108aa81c3 chromedriver + 905667
+9   chromedriver                        0x0000000108a7405a chromedriver + 692314
+10  chromedriver                        0x0000000108a751b1 chromedriver + 696753
+11  chromedriver                        0x0000000108f58c90 chromedriver + 5823632
+12  chromedriver                        0x0000000108f5cb44 chromedriver + 5839684
+13  chromedriver                        0x0000000108f33e86 chromedriver + 5672582
+14  chromedriver                        0x0000000108f5d53b chromedriver + 5842235
+15  chromedriver                        0x0000000108f22824 chromedriver + 5601316
+16  chromedriver                        0x0000000108f7f618 chromedriver + 5981720
+17  chromedriver                        0x0000000108f7f7df chromedriver + 5982175
+18  chromedriver                        0x0000000108f90d58 chromedriver + 6053208
+19  libsystem_pthread.dylib             0x00007ff80c46e253 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff80c469bef thread_start + 15
+
+2025-04-01 15:36:12.836 | ERROR    | __main__:main:59 - No reviews were scraped. Check the URL and try again.
+2025-04-01 15:44:47.340 | INFO     | __main__:main:12 - Starting Best Buy review scraping and analysis
+2025-04-01 15:44:57.640 | INFO     | __main__:main:47 - Initializing scraper
+2025-04-01 15:44:57.640 | INFO     | bestbuy_review_scraper:__init__:30 - Initializing BestBuy Review Scraper
+2025-04-01 15:44:57.646 | INFO     | bestbuy_review_scraper:__init__:57 - Detected system: Darwin on x86_64 architecture
+2025-04-01 15:44:58.616 | ERROR    | bestbuy_review_scraper:__init__:76 - Failed to initialize Chrome driver: [Errno 8] Exec format error: '/Users/manasprusti/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-x64/THIRD_PARTY_NOTICES.chromedriver'
+2025-04-01 15:45:00.764 | INFO     | __main__:main:51 - Scraping reviews for product: https://www.bestbuy.ca/en-ca/product/lenovo-yoga-slim-7x-14-5-oled-touchscreen-copilot-pc-laptop-snapdragon-x-elite-16gb-ram-1tb-ssd/17930942
+2025-04-01 15:45:00.765 | INFO     | bestbuy_review_scraper:navigate_to_product:96 - Navigating to product: https://www.bestbuy.ca/en-ca/product/lenovo-yoga-slim-7x-14-5-oled-touchscreen-copilot-pc-laptop-snapdragon-x-elite-16gb-ram-1tb-ssd/17930942
+2025-04-01 15:45:21.746 | ERROR    | bestbuy_review_scraper:navigate_to_product:110 - Failed to navigate to reviews section: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001038d6568 chromedriver + 6088040
+1   chromedriver                        0x00000001038ce17a chromedriver + 6054266
+2   chromedriver                        0x000000010336d540 chromedriver + 415040
+3   chromedriver                        0x00000001033bf0a0 chromedriver + 749728
+4   chromedriver                        0x00000001033bf2f1 chromedriver + 750321
+5   chromedriver                        0x000000010340f764 chromedriver + 1079140
+6   chromedriver                        0x00000001033e541d chromedriver + 906269
+7   chromedriver                        0x000000010340ca19 chromedriver + 1067545
+8   chromedriver                        0x00000001033e51c3 chromedriver + 905667
+9   chromedriver                        0x00000001033b105a chromedriver + 692314
+10  chromedriver                        0x00000001033b21b1 chromedriver + 696753
+11  chromedriver                        0x0000000103895c90 chromedriver + 5823632
+12  chromedriver                        0x0000000103899b44 chromedriver + 5839684
+13  chromedriver                        0x0000000103870e86 chromedriver + 5672582
+14  chromedriver                        0x000000010389a53b chromedriver + 5842235
+15  chromedriver                        0x000000010385f824 chromedriver + 5601316
+16  chromedriver                        0x00000001038bc618 chromedriver + 5981720
+17  chromedriver                        0x00000001038bc7df chromedriver + 5982175
+18  chromedriver                        0x00000001038cdd58 chromedriver + 6053208
+19  libsystem_pthread.dylib             0x00007ff80c46e253 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff80c469bef thread_start + 15
+
+2025-04-01 15:45:21.749 | ERROR    | __main__:main:59 - No reviews were scraped. Check the URL and try again.
+2025-04-01 15:48:31.085 | INFO     | __main__:main:12 - Starting Best Buy review scraping and analysis
+2025-04-01 15:48:59.409 | INFO     | __main__:main:47 - Initializing scraper
+2025-04-01 15:48:59.410 | INFO     | bestbuy_review_scraper:__init__:31 - Initializing BestBuy Review Scraper
+2025-04-01 15:50:01.013 | INFO     | __main__:main:12 - Starting Best Buy review scraping and analysis
+2025-04-01 15:50:08.106 | INFO     | __main__:main:47 - Initializing scraper
+2025-04-01 15:50:08.106 | INFO     | bestbuy_review_scraper:__init__:31 - Initializing BestBuy Review Scraper
+2025-04-01 15:50:10.360 | INFO     | __main__:main:51 - Scraping reviews for product: https://www.bestbuy.ca/en-ca/product/lenovo-yoga-slim-7x-14-5-oled-touchscreen-copilot-pc-laptop-snapdragon-x-elite-16gb-ram-1tb-ssd/17930942
+2025-04-01 15:50:10.360 | INFO     | bestbuy_review_scraper:navigate_to_product:71 - Navigating to product: https://www.bestbuy.ca/en-ca/product/lenovo-yoga-slim-7x-14-5-oled-touchscreen-copilot-pc-laptop-snapdragon-x-elite-16gb-ram-1tb-ssd/17930942
+2025-04-01 15:50:20.018 | INFO     | bestbuy_review_scraper:navigate_to_product:80 - Page loaded successfully
+2025-04-01 15:50:35.140 | ERROR    | bestbuy_review_scraper:navigate_to_product:101 - Failed to find reviews section: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010d2e8568 chromedriver + 6088040
+1   chromedriver                        0x000000010d2e017a chromedriver + 6054266
+2   chromedriver                        0x000000010cd7f540 chromedriver + 415040
+3   chromedriver                        0x000000010cdd10a0 chromedriver + 749728
+4   chromedriver                        0x000000010cdd12f1 chromedriver + 750321
+5   chromedriver                        0x000000010ce21764 chromedriver + 1079140
+6   chromedriver                        0x000000010cdf741d chromedriver + 906269
+7   chromedriver                        0x000000010ce1ea19 chromedriver + 1067545
+8   chromedriver                        0x000000010cdf71c3 chromedriver + 905667
+9   chromedriver                        0x000000010cdc305a chromedriver + 692314
+10  chromedriver                        0x000000010cdc41b1 chromedriver + 696753
+11  chromedriver                        0x000000010d2a7c90 chromedriver + 5823632
+12  chromedriver                        0x000000010d2abb44 chromedriver + 5839684
+13  chromedriver                        0x000000010d282e86 chromedriver + 5672582
+14  chromedriver                        0x000000010d2ac53b chromedriver + 5842235
+15  chromedriver                        0x000000010d271824 chromedriver + 5601316
+16  chromedriver                        0x000000010d2ce618 chromedriver + 5981720
+17  chromedriver                        0x000000010d2ce7df chromedriver + 5982175
+18  chromedriver                        0x000000010d2dfd58 chromedriver + 6053208
+19  libsystem_pthread.dylib             0x00007ff80c46e253 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff80c469bef thread_start + 15
+
+2025-04-01 15:50:35.179 | INFO     | bestbuy_review_scraper:navigate_to_product:108 - Found and scrolled to ratings section using alternative method
+2025-04-01 15:50:41.292 | INFO     | bestbuy_review_scraper:select_filter:123 - Selecting filter: newest
+2025-04-01 15:50:51.594 | ERROR    | bestbuy_review_scraper:select_filter:152 - Failed to select filter: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010d2e8568 chromedriver + 6088040
+1   chromedriver                        0x000000010d2e017a chromedriver + 6054266
+2   chromedriver                        0x000000010cd7f540 chromedriver + 415040
+3   chromedriver                        0x000000010cdd10a0 chromedriver + 749728
+4   chromedriver                        0x000000010cdd12f1 chromedriver + 750321
+5   chromedriver                        0x000000010ce21764 chromedriver + 1079140
+6   chromedriver                        0x000000010cdf741d chromedriver + 906269
+7   chromedriver                        0x000000010ce1ea19 chromedriver + 1067545
+8   chromedriver                        0x000000010cdf71c3 chromedriver + 905667
+9   chromedriver                        0x000000010cdc305a chromedriver + 692314
+10  chromedriver                        0x000000010cdc41b1 chromedriver + 696753
+11  chromedriver                        0x000000010d2a7c90 chromedriver + 5823632
+12  chromedriver                        0x000000010d2abb44 chromedriver + 5839684
+13  chromedriver                        0x000000010d282e86 chromedriver + 5672582
+14  chromedriver                        0x000000010d2ac53b chromedriver + 5842235
+15  chromedriver                        0x000000010d271824 chromedriver + 5601316
+16  chromedriver                        0x000000010d2ce618 chromedriver + 5981720
+17  chromedriver                        0x000000010d2ce7df chromedriver + 5982175
+18  chromedriver                        0x000000010d2dfd58 chromedriver + 6053208
+19  libsystem_pthread.dylib             0x00007ff80c46e253 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff80c469bef thread_start + 15
+
+2025-04-01 15:50:56.731 | INFO     | bestbuy_review_scraper:load_all_reviews:192 - No more 'Show More' button found
+2025-04-01 15:50:56.731 | INFO     | bestbuy_review_scraper:parse_reviews:197 - Parsing reviews
+2025-04-01 15:50:57.139 | INFO     | bestbuy_review_scraper:parse_reviews:203 - Found 0 reviews to parse
+2025-04-01 15:50:57.612 | INFO     | bestbuy_review_scraper:parse_reviews:270 - Successfully parsed 0 reviews
+2025-04-01 15:50:57.613 | WARNING  | bestbuy_review_scraper:save_to_csv:275 - No reviews to save
+2025-04-01 15:50:57.613 | ERROR    | __main__:main:59 - No reviews were scraped. Check the URL and try again.
+2025-04-01 15:57:28.414 | INFO     | __main__:main:12 - Starting Best Buy review scraping and analysis
+2025-04-01 15:57:59.599 | INFO     | __main__:main:47 - Initializing scraper
+2025-04-01 15:57:59.600 | INFO     | bestbuy_review_scraper:__init__:31 - Initializing BestBuy Review Scraper
+2025-04-01 15:58:02.028 | INFO     | __main__:main:51 - Scraping reviews for product: https://www.bestbuy.ca/en-ca/product/lenovo-yoga-slim-7x-14-5-oled-touchscreen-copilot-pc-laptop-snapdragon-x-elite-16gb-ram-1tb-ssd/17930942
+2025-04-01 15:58:02.029 | INFO     | bestbuy_review_scraper:navigate_to_product:71 - Navigating to product: https://www.bestbuy.ca/en-ca/product/lenovo-yoga-slim-7x-14-5-oled-touchscreen-copilot-pc-laptop-snapdragon-x-elite-16gb-ram-1tb-ssd/17930942
+2025-04-01 15:58:15.779 | INFO     | bestbuy_review_scraper:navigate_to_product:80 - Page loaded successfully
+2025-04-01 15:58:20.621 | INFO     | bestbuy_review_scraper:navigate_to_product:96 - Found and scrolled to Customer Reviews section
+2025-04-01 15:58:24.616 | INFO     | bestbuy_review_scraper:navigate_to_product:101 - Saved screenshot of reviews section to reviews_section.png
+2025-04-01 15:58:24.617 | INFO     | bestbuy_review_scraper:select_filter:142 - Selecting filter: newest
+2025-04-01 15:58:24.700 | WARNING  | bestbuy_review_scraper:select_filter:184 - Could not find any filter dropdown. Proceeding with default sorting.
+2025-04-01 15:58:24.985 | INFO     | bestbuy_review_scraper:load_all_reviews:234 - Saved screenshot before loading reviews
+2025-04-01 15:58:25.104 | INFO     | bestbuy_review_scraper:load_all_reviews:251 - Found reviews using selector: [class*='review'] (count: 53)
+2025-04-01 15:58:25.415 | INFO     | bestbuy_review_scraper:load_all_reviews:285 - Saved screenshot of reviews attempt 1
+2025-04-01 15:58:25.415 | INFO     | bestbuy_review_scraper:load_all_reviews:289 - Reached maximum number of reviews: 5
+2025-04-01 15:58:25.738 | INFO     | bestbuy_review_scraper:load_all_reviews:332 - Saved screenshot after attempting to load all reviews
+2025-04-01 15:58:25.739 | INFO     | bestbuy_review_scraper:parse_reviews:336 - Parsing reviews
+2025-04-01 15:58:26.085 | INFO     | bestbuy_review_scraper:parse_reviews:340 - Saved screenshot before parsing reviews
+2025-04-01 15:58:26.550 | INFO     | bestbuy_review_scraper:parse_reviews:359 - Found 29 reviews using selector: div[class*='review']
+2025-04-01 15:58:26.551 | INFO     | bestbuy_review_scraper:parse_reviews:371 - Found 29 reviews to parse
+2025-04-01 15:58:26.579 | INFO     | bestbuy_review_scraper:parse_reviews:476 - Successfully parsed 29 reviews
+2025-04-01 15:58:26.596 | SUCCESS  | bestbuy_review_scraper:save_to_csv:486 - Saved 29 reviews to bestbuy_reviews.csv
+2025-04-01 15:58:26.598 | INFO     | __main__:main:64 - Raw reviews saved to bestbuy_results/bestbuy_17930942_reviews_raw.csv
+2025-04-01 15:58:26.598 | INFO     | __main__:main:67 - Initializing analyzer
+2025-04-01 15:58:26.599 | INFO     | review_analyzer:__init__:14 - Initializing Review Analyzer
+2025-04-01 15:58:27.047 | INFO     | __main__:main:70 - Analyzing reviews
+2025-04-01 15:58:27.048 | INFO     | review_analyzer:analyze_reviews:125 - Analyzing reviews
+2025-04-01 15:58:27.048 | INFO     | review_analyzer:analyze_reviews:135 - Preprocessing review text
+2025-04-01 15:58:27.062 | INFO     | review_analyzer:analyze_reviews:139 - Analyzing sentiment
+2025-04-01 15:58:27.078 | SUCCESS  | review_analyzer:analyze_reviews:163 - Sentiment analysis completed for 29 reviews
+2025-04-01 15:58:31.613 | INFO     | __main__:main:76 - Analyzed reviews saved to bestbuy_results/bestbuy_17930942_reviews_analyzed.csv and bestbuy_results/bestbuy_17930942_reviews_analyzed.xlsx
+2025-04-01 15:58:31.614 | INFO     | __main__:main:79 - Extracting insights
+2025-04-01 15:58:31.614 | INFO     | review_analyzer:extract_insights:176 - Extracting insights from reviews
+2025-04-01 15:58:31.625 | SUCCESS  | review_analyzer:extract_insights:206 - Insights extraction completed
+2025-04-01 15:58:31.625 | INFO     | __main__:main:82 - Generating recommendations
+2025-04-01 15:58:31.625 | INFO     | review_analyzer:generate_recommendations:219 - Generating business recommendations
+2025-04-01 15:58:31.625 | SUCCESS  | review_analyzer:generate_recommendations:259 - Generated 3 business recommendations
+2025-04-01 15:58:31.626 | INFO     | __main__:main:88 - Insights saved to bestbuy_results/bestbuy_17930942_insights.json
+2025-04-01 15:58:31.626 | INFO     | __main__:main:92 - Report saved to bestbuy_results/bestbuy_17930942_report.txt
+2025-04-01 15:58:31.627 | SUCCESS  | __main__:main:94 - Process completed successfully!
+2025-04-01 16:15:15.243 | INFO     | __main__:main:12 - Starting Best Buy review scraping and analysis
+2025-04-01 16:15:33.392 | INFO     | __main__:main:47 - Initializing scraper
+2025-04-01 16:15:33.393 | INFO     | bestbuy_review_scraper:__init__:31 - Initializing BestBuy Review Scraper
+2025-04-01 16:15:38.045 | INFO     | __main__:main:51 - Scraping reviews for product: https://www.bestbuy.ca/en-ca/product/lenovo-yoga-slim-7x-14-5-oled-touchscreen-copilot-pc-laptop-snapdragon-x-elite-16gb-ram-1tb-ssd/17930942
+2025-04-01 16:15:38.046 | INFO     | bestbuy_review_scraper:navigate_to_product:71 - Navigating to product: https://www.bestbuy.ca/en-ca/product/lenovo-yoga-slim-7x-14-5-oled-touchscreen-copilot-pc-laptop-snapdragon-x-elite-16gb-ram-1tb-ssd/17930942
+2025-04-01 16:15:50.452 | INFO     | bestbuy_review_scraper:navigate_to_product:80 - Page loaded successfully
+2025-04-01 16:15:57.254 | INFO     | bestbuy_review_scraper:navigate_to_product:96 - Found and scrolled to Customer Reviews section
+2025-04-01 16:16:03.837 | INFO     | bestbuy_review_scraper:navigate_to_product:101 - Saved screenshot of reviews section to reviews_section.png
+2025-04-01 16:16:03.838 | INFO     | bestbuy_review_scraper:select_filter:142 - Selecting filter: newest
+2025-04-01 16:16:04.124 | INFO     | bestbuy_review_scraper:select_filter:172 - Clicked on potential filter element: no text
+2025-04-01 16:16:07.729 | WARNING  | bestbuy_review_scraper:select_filter:216 - Could not select filter option: Newest. Proceeding with default sorting.
+2025-04-01 16:16:08.029 | INFO     | bestbuy_review_scraper:load_all_reviews:234 - Saved screenshot before loading reviews
+2025-04-01 16:16:08.060 | INFO     | bestbuy_review_scraper:load_all_reviews:251 - Found reviews using selector: [class*='review'] (count: 53)
+2025-04-01 16:16:08.334 | INFO     | bestbuy_review_scraper:load_all_reviews:285 - Saved screenshot of reviews attempt 1
+2025-04-01 16:16:08.334 | INFO     | bestbuy_review_scraper:load_all_reviews:289 - Reached maximum number of reviews: 5
+2025-04-01 16:16:08.630 | INFO     | bestbuy_review_scraper:load_all_reviews:332 - Saved screenshot after attempting to load all reviews
+2025-04-01 16:16:08.630 | INFO     | bestbuy_review_scraper:parse_reviews:336 - Parsing reviews
+2025-04-01 16:16:08.912 | INFO     | bestbuy_review_scraper:parse_reviews:340 - Saved screenshot before parsing reviews
+2025-04-01 16:16:09.397 | INFO     | bestbuy_review_scraper:parse_reviews:359 - Found 29 reviews using selector: div[class*='review']
+2025-04-01 16:16:09.397 | INFO     | bestbuy_review_scraper:parse_reviews:371 - Found 29 reviews to parse
+2025-04-01 16:16:09.431 | INFO     | bestbuy_review_scraper:parse_reviews:476 - Successfully parsed 29 reviews
+2025-04-01 16:16:09.448 | SUCCESS  | bestbuy_review_scraper:save_to_csv:486 - Saved 29 reviews to bestbuy_reviews.csv
+2025-04-01 16:16:09.449 | INFO     | __main__:main:64 - Raw reviews saved to bestbuy_results/bestbuy_17930942_reviews_raw.csv
+2025-04-01 16:16:09.449 | INFO     | __main__:main:67 - Initializing analyzer
+2025-04-01 16:16:09.449 | INFO     | review_analyzer:__init__:14 - Initializing Review Analyzer
+2025-04-01 16:16:09.949 | INFO     | __main__:main:70 - Analyzing reviews
+2025-04-01 16:16:09.949 | INFO     | review_analyzer:analyze_reviews:125 - Analyzing reviews
+2025-04-01 16:16:09.950 | INFO     | review_analyzer:analyze_reviews:135 - Preprocessing review text
+2025-04-01 16:16:09.963 | INFO     | review_analyzer:analyze_reviews:139 - Analyzing sentiment
+2025-04-01 16:16:09.972 | SUCCESS  | review_analyzer:analyze_reviews:163 - Sentiment analysis completed for 29 reviews
+2025-04-01 16:16:10.225 | INFO     | __main__:main:76 - Analyzed reviews saved to bestbuy_results/bestbuy_17930942_reviews_analyzed.csv and bestbuy_results/bestbuy_17930942_reviews_analyzed.xlsx
+2025-04-01 16:16:10.225 | INFO     | __main__:main:79 - Extracting insights
+2025-04-01 16:16:10.225 | INFO     | review_analyzer:extract_insights:176 - Extracting insights from reviews
+2025-04-01 16:16:10.234 | SUCCESS  | review_analyzer:extract_insights:206 - Insights extraction completed
+2025-04-01 16:16:10.235 | INFO     | __main__:main:82 - Generating recommendations
+2025-04-01 16:16:10.235 | INFO     | review_analyzer:generate_recommendations:219 - Generating business recommendations
+2025-04-01 16:16:10.235 | SUCCESS  | review_analyzer:generate_recommendations:259 - Generated 3 business recommendations
+2025-04-01 16:16:10.236 | INFO     | __main__:main:88 - Insights saved to bestbuy_results/bestbuy_17930942_insights.json
+2025-04-01 16:16:10.236 | INFO     | __main__:main:92 - Report saved to bestbuy_results/bestbuy_17930942_report.txt
+2025-04-01 16:16:10.236 | SUCCESS  | __main__:main:94 - Process completed successfully!
+2025-04-02 15:31:36.273 | INFO     | __main__:main:12 - Starting Best Buy review scraping and analysis
+2025-04-02 15:32:17.692 | INFO     | __main__:main:47 - Initializing scraper
+2025-04-02 15:32:17.692 | INFO     | bestbuy_review_scraper:__init__:31 - Initializing BestBuy Review Scraper
+2025-04-02 15:32:25.556 | INFO     | __main__:main:51 - Scraping reviews for product: 
+2025-04-02 15:32:25.557 | INFO     | bestbuy_review_scraper:navigate_to_product:71 - Navigating to product: 
+2025-04-02 15:32:25.563 | ERROR    | bestbuy_review_scraper:scrape_product_reviews:519 - Error during scraping: Message: invalid argument
+  (Session info: chrome=134.0.6998.166)
+Stacktrace:
+0   chromedriver                        0x000000010f069568 chromedriver + 6088040
+1   chromedriver                        0x000000010f06117a chromedriver + 6054266
+2   chromedriver                        0x000000010eb00383 chromedriver + 414595
+3   chromedriver                        0x000000010eae6ca4 chromedriver + 310436
+4   chromedriver                        0x000000010eae53b4 chromedriver + 304052
+5   chromedriver                        0x000000010eae59fa chromedriver + 305658
+6   chromedriver                        0x000000010eb03a19 chromedriver + 428569
+7   chromedriver                        0x000000010eba06d5 chromedriver + 1070805
+8   chromedriver                        0x000000010eb783f2 chromedriver + 906226
+9   chromedriver                        0x000000010eb9fa19 chromedriver + 1067545
+10  chromedriver                        0x000000010eb781c3 chromedriver + 905667
+11  chromedriver                        0x000000010eb4405a chromedriver + 692314
+12  chromedriver                        0x000000010eb451b1 chromedriver + 696753
+13  chromedriver                        0x000000010f028c90 chromedriver + 5823632
+14  chromedriver                        0x000000010f02cb44 chromedriver + 5839684
+15  chromedriver                        0x000000010f003e86 chromedriver + 5672582
+16  chromedriver                        0x000000010f02d53b chromedriver + 5842235
+17  chromedriver                        0x000000010eff2824 chromedriver + 5601316
+18  chromedriver                        0x000000010f04f618 chromedriver + 5981720
+19  chromedriver                        0x000000010f04f7df chromedriver + 5982175
+20  chromedriver                        0x000000010f060d58 chromedriver + 6053208
+21  libsystem_pthread.dylib             0x00007ff80c46e253 _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff80c469bef thread_start + 15
+
+2025-04-02 15:32:25.565 | ERROR    | __main__:main:59 - No reviews were scraped. Check the URL and try again.
+2025-04-02 15:32:40.839 | INFO     | __main__:main:12 - Starting Best Buy review scraping and analysis
+2025-04-02 15:33:11.324 | INFO     | __main__:main:47 - Initializing scraper
+2025-04-02 15:33:11.325 | INFO     | bestbuy_review_scraper:__init__:31 - Initializing BestBuy Review Scraper
+2025-04-02 15:33:13.478 | INFO     | __main__:main:51 - Scraping reviews for product: https://www.bestbuy.ca/en-ca/product/lenovo-yoga-slim-7x-14-5-oled-touchscreen-copilot-pc-laptop-snapdragon-x-elite-16gb-ram-1tb-ssd/17930942
+2025-04-02 15:33:13.479 | INFO     | bestbuy_review_scraper:navigate_to_product:71 - Navigating to product: https://www.bestbuy.ca/en-ca/product/lenovo-yoga-slim-7x-14-5-oled-touchscreen-copilot-pc-laptop-snapdragon-x-elite-16gb-ram-1tb-ssd/17930942
+2025-04-02 15:33:31.792 | INFO     | bestbuy_review_scraper:navigate_to_product:80 - Page loaded successfully
+2025-04-02 15:33:35.878 | INFO     | bestbuy_review_scraper:navigate_to_product:96 - Found and scrolled to Customer Reviews section
+2025-04-02 15:33:40.923 | INFO     | bestbuy_review_scraper:navigate_to_product:101 - Saved screenshot of reviews section to reviews_section.png
+2025-04-02 15:33:40.923 | INFO     | bestbuy_review_scraper:select_filter:142 - Selecting filter: highest-rating
+2025-04-02 15:33:40.995 | WARNING  | bestbuy_review_scraper:select_filter:184 - Could not find any filter dropdown. Proceeding with default sorting.
+2025-04-02 15:33:41.288 | INFO     | bestbuy_review_scraper:load_all_reviews:234 - Saved screenshot before loading reviews
+2025-04-02 15:33:41.320 | INFO     | bestbuy_review_scraper:load_all_reviews:251 - Found reviews using selector: [class*='review'] (count: 31)
+2025-04-02 15:33:41.618 | INFO     | bestbuy_review_scraper:load_all_reviews:285 - Saved screenshot of reviews attempt 1
+2025-04-02 15:33:41.619 | INFO     | bestbuy_review_scraper:load_all_reviews:289 - Reached maximum number of reviews: 29
+2025-04-02 15:33:41.908 | INFO     | bestbuy_review_scraper:load_all_reviews:332 - Saved screenshot after attempting to load all reviews
+2025-04-02 15:33:41.909 | INFO     | bestbuy_review_scraper:parse_reviews:336 - Parsing reviews
+2025-04-02 15:33:42.203 | INFO     | bestbuy_review_scraper:parse_reviews:340 - Saved screenshot before parsing reviews
+2025-04-02 15:33:42.506 | INFO     | bestbuy_review_scraper:parse_reviews:359 - Found 17 reviews using selector: div[class*='review']
+2025-04-02 15:33:42.507 | INFO     | bestbuy_review_scraper:parse_reviews:371 - Found 17 reviews to parse
+2025-04-02 15:33:42.544 | INFO     | bestbuy_review_scraper:parse_reviews:476 - Successfully parsed 17 reviews
+2025-04-02 15:33:42.555 | SUCCESS  | bestbuy_review_scraper:save_to_csv:486 - Saved 17 reviews to bestbuy_reviews.csv
+2025-04-02 15:33:42.558 | INFO     | __main__:main:64 - Raw reviews saved to bestbuy_results/bestbuy_17930942_reviews_raw.csv
+2025-04-02 15:33:42.558 | INFO     | __main__:main:67 - Initializing analyzer
+2025-04-02 15:33:42.558 | INFO     | review_analyzer:__init__:14 - Initializing Review Analyzer
+2025-04-02 15:33:42.917 | INFO     | __main__:main:70 - Analyzing reviews
+2025-04-02 15:33:42.918 | INFO     | review_analyzer:analyze_reviews:125 - Analyzing reviews
+2025-04-02 15:33:42.918 | INFO     | review_analyzer:analyze_reviews:135 - Preprocessing review text
+2025-04-02 15:33:42.929 | INFO     | review_analyzer:analyze_reviews:139 - Analyzing sentiment
+2025-04-02 15:33:42.934 | SUCCESS  | review_analyzer:analyze_reviews:163 - Sentiment analysis completed for 17 reviews
+2025-04-02 15:33:43.710 | INFO     | __main__:main:76 - Analyzed reviews saved to bestbuy_results/bestbuy_17930942_reviews_analyzed.csv and bestbuy_results/bestbuy_17930942_reviews_analyzed.xlsx
+2025-04-02 15:33:43.710 | INFO     | __main__:main:79 - Extracting insights
+2025-04-02 15:33:43.710 | INFO     | review_analyzer:extract_insights:176 - Extracting insights from reviews
+2025-04-02 15:33:43.713 | SUCCESS  | review_analyzer:extract_insights:206 - Insights extraction completed
+2025-04-02 15:33:43.713 | INFO     | __main__:main:82 - Generating recommendations
+2025-04-02 15:33:43.714 | INFO     | review_analyzer:generate_recommendations:219 - Generating business recommendations
+2025-04-02 15:33:43.714 | SUCCESS  | review_analyzer:generate_recommendations:259 - Generated 3 business recommendations
+2025-04-02 15:33:43.714 | INFO     | __main__:main:88 - Insights saved to bestbuy_results/bestbuy_17930942_insights.json
+2025-04-02 15:33:43.715 | INFO     | __main__:main:92 - Report saved to bestbuy_results/bestbuy_17930942_report.txt
+2025-04-02 15:33:43.715 | SUCCESS  | __main__:main:94 - Process completed successfully!
